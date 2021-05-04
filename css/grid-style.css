@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2016, 7:27:47 PM
+    Author     : dell notebook
+*/
+*{box-sizing: border-box;}
+body{
+    padding: 0;
+   margin: 0; 
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+   margin: 0;  
+}
+p{
+    margin: 0 0 1em 0;
+}
+.test{
+    width: 30px;
+    height: auto;
+}
+.container{
+   max-width: 600px;
+   padding: 0 25px;
+   margin: 0 auto;
+}
+.row{
+    padding: 15px;
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+.col{
+    //background: #677DCC;
+    min-height: 20px;
+    border-radius: 5px;
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    display: inline-block;
+    float: left;
+}
+.col:first-child{margin-left: 0px;}
+.col:last-child{margin-right: 0px;}
+
+.col.one{width: 3.93%;}
+.col.two{width: 12.66%;}
+.col.three{width: 21.4%;}
+.col.four{width: 30.13%;}
+.col.five{width: 38.867%;}
+.col.six{width: 47.6%;}
+.col.seven{width: 56.333%;}
+.col.eight{width: 65.07%;}
+.col.nine{width: 73.8%;}
+.col.ten{width: 82.533%;}
+.col.eleven{width: 91.27%;}
+.col.twelve{width: 100%;}
+
+@media (max-width:768px){
+    .col{
+        width: 100% !important;
+        margin: 5px 0 5px 0;
+    }
+}
